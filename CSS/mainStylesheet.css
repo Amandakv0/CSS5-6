@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainWrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.headerDiv{
+    display: flex;
+    gap: 214px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 110px;
+    padding: 32px 0px;
+    max-width: 1024px;
+}
+.navBarDiv{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.navBarTextsDiv{
+    display: flex;
+    gap: 20px;
+}
+.navBarlittleDivs{
+    display: flex;
+    gap: 5px;
+}
+.greyText{
+    color: #535862;
+    font-size: 16px;
+    text-align: center;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+.loginButtons{
+    display: flex;
+    gap: 12px;
+}
+.logIngButton, .signUpButton{
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+.logIngButton{
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+a{
+    text-decoration-line: none;
+}
+.signUpButton{
+    background: #7F56D9;
+}
+.whiteText{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+.littleMiddleDiv{
+    display: flex;
+    gap: 12px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.featurDiv, .dashbordDiv{
+    display: flex;
+    gap: 3px;
+}
+.featurDiv{
+    border-radius: 6px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 8px;
+}
+.dashbordDiv{
+    align-items: center;
+}
+.arrow{
+    width: 16px;
+    height: 16px;
+}
+.mainWebsiteHeaderDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 96px;
+    align-items: center;
+    max-width: 1024px;
+}
+.HeaderTextsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+h1{
+    letter-spacing: 2px;
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #181D27;
+}
+.greyTextP{
+    color: #535862;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 760px;
+}
+.DemoSignUpButtonsDiv{
+    display: flex;
+    gap: 12px;
+}
+.demoDiv{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.greyWeightText{
+    color: #414651;
+    font-size: 18px;
+    font-weight: 600;
+}
+.demoButtonDIv{
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+.signButton, .demoButtonDIv{
+    padding: 16px 24px;
+    border-radius: 10px;
+}
+.signButton{
+    background-color: #7F56D9;
+}
+.whiteTextP{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Mockups{
+    display: flex;
+    margin-bottom: 95px;
+    padding-right: 120px;/*es ase vqna?*/
+}
+.iphone{
+    position: relative;
+    left: 220px;
+    padding-top: 60px;
+    margin-right: 100px;
+}
+.greyTextt{
+    color: #535862;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+.secondContainerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 96px;
+    gap: 25px;
+    width: 100%;
+    max-width: 1024px;
+}
+.textsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    padding: 0px 20px;
+}
+.purpleText{
+    color: #7F56D9;
+    font-size: 16px;
+    font-weight: 600;
+}
+.analyticsThreeMiniBoxesDiv{
+    display: flex;
+    gap: 16px;
+}
+.analyticsLittleDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 12px 24px;
+    align-items: center;
+    width: 292px;
+}
+.logoFrame{
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+.textsDivAnalytics{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+h4{
+    color: #181D27;
+    font-size: 16px;
+    font-weight: 600;
+}
+.secondHeader{
+    color: #181D27;
+    font-size: 36px;
+    font-weight: 600;
+}
+.secondContainerDiv{
+    margin-top: 90px;
+}
+.pricingCard{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    width: 100%;
+    max-width: 498px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+.cardPart{
+    display: flex;
+    width: 100%;
+    max-width: 498px;
+    border-top: 1px solid #E9EAEB;
+    background: #FAFAFA;
+    padding: 32px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.cardsWrapper{
+    display: flex;
+    width: 100%;
+    max-width: 496px;
+    flex-direction: column;
+}
+.cardNameDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 25px;
+}
+.cardLogoFrame{
+    padding: 12px;
+    border-radius: 9999px;
+    background: #F4EBFF;
+}
+.cardName{
+    font-size: 48px;
+    color: #181D27;
+    font-weight: 600;
+}
+.cardFeaturesDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+.featuress{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.greyTexT{
+    color: #535862;
+    font-size: 16px;
+}
+.cardSignUpButton{
+    padding: 12px 18px;
+    width: 432px;
+    text-align: center;
+    border-radius: 8px;
+    background: #7F56D9;
+}
+.whiteTexT{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+.bothDivsWrapper{
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.lastFrame{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    margin-bottom: 92px;
+}
+.purpleFrame{
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    background: #53389E;
+    width: 100%;
+    max-width: 544px;
+    padding: 64px;
+}
+.girlImg{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.starsDiv{
+    display: flex;
+    gap: 4px;
+}
+.stars{
+    width: 20px;
+    height: 20px;
+}
+.bigWhiteText{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+}
+.lastTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 416px;
+    text-align: left;
+    margin-top: 24px;
+}
+.wells{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.purpleLightText{
+    color: #E9D7FE;
+    font-size: 16px;
+}
+.circlesDiv{
+    display: flex;
+    gap: 16px;
+    margin-top: 70px;
+}
+.footerFrame{
+    display: flex;
+    width: 100%;
+    padding: 24px 0px;
+    align-items: center;
+    max-width: 1024px;
+    justify-content: space-between;
+}
+.littleGreyText{
+    color: #717680;
+    font-size: 16px;
+}
+.footerConttentFrame{
+    display: flex;
+    gap: 32px;
+}
